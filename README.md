@@ -14,6 +14,7 @@ Write APIs to perform operations on the tables `user`, `follower`, `tweet`, `rep
 | password | TEXT    |
 | gender   | TEXT    |
 
+
 **Follower Table**
 
 | Column              | Type    |

@@ -21,38 +21,40 @@ Content-Type : application/json
 }
 ###
 
-GET http://localhost:3000/user/tweets/feed/?limit=4&offset=0&search_q=3859
+GET http://localhost:3000/user/tweets/feed/
 
-Authentication: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkYW1fcmljaGFyZCIsImlhdCI6MTcyMzk4MDQyMH0.MoV_1vMpUNWJW0QgJatwlyCLfXiTbPGauBTeUCxqnq0
+Authentication: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkYW1fcmljaGFyZCIsInVzZXJJZCI6NywiaWF0IjoxNzI0MjU4NDk1fQ.5NCZ9M7JAwCThqZeRyX8QtqajFSpZegVtJHmYqQ9Y74
 
-###
+
+####
+
 
 GET http://localhost:3000/user/following/
-Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkYW1fcmljaGFyZCIsImlhdCI6MTcyMzk2NzQxM30.yhTMwQRx9Ztq3C1zZPa6gv-L3z3qnkpafnYPWaATwaw
-
-###
+Authorization: bearer 
 
 GET http://localhost:3000/user/followers/
-Authentication: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkYW1fcmljaGFyZCIsImlhdCI6MTcyMzk2MjYwMX0.qX9_i4zGfOuuQJoSQ9v5bfWYywThfWL97jg-GpbVDQk
+Authentication: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkYW1fcmljaGFyZCIsImlhdCI6MTcyNDE2MDA3OH0.Ew5AoUD3yXiw6SYPTW6qOAac_k0GOm79LxD4iVz52QE
+
 
 GET http://localhost:3000/tweets/5/
-Authentication: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkYW1fcmljaGFyZCIsImlhdCI6MTcyMzk2OTkwMX0.TmM4Bpspg9IrsusWQECX3HO6in1Kcvm9jDV5uvc6AmQ
+Authentication: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkYW1fcmljaGFyZCIsImlhdCI6MTcyNDE2MDA3OH0.Ew5AoUD3yXiw6SYPTW6qOAac_k0GOm79LxD4iVz52QE
 
 
 GET http://localhost:3000/tweets/5/likes/
-Authentication: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkYW1fcmljaGFyZCIsImlhdCI6MTcyMzk2OTkwMX0.TmM4Bpspg9IrsusWQECX3HO6in1Kcvm9jDV5uvc6AmQ
+Authentication: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkYW1fcmljaGFyZCIsImlhdCI6MTcyNDE2MDA3OH0.Ew5AoUD3yXiw6SYPTW6qOAac_k0GOm79LxD4iVz52QE
 
 
 GET http://localhost:3000/tweets/5/replies/
-Authentication: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkYW1fcmljaGFyZCIsImlhdCI6MTcyMzk2OTkwMX0.TmM4Bpspg9IrsusWQECX3HO6in1Kcvm9jDV5uvc6AmQ
+Authentication: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkYW1fcmljaGFyZCIsImlhdCI6MTcyNDE2MDA3OH0.Ew5AoUD3yXiw6SYPTW6qOAac_k0GOm79LxD4iVz52QE
+
 
 
 GET http://localhost:3000/user/tweets/
-Authentication: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkYW1fcmljaGFyZCIsImlhdCI6MTcyMzk2OTkwMX0.TmM4Bpspg9IrsusWQECX3HO6in1Kcvm9jDV5uvc6AmQ
-
+Authentication: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkYW1fcmljaGFyZCIsImlhdCI6MTcyNDE2MDA3OH0.Ew5AoUD3yXiw6SYPTW6qOAac_k0GOm79LxD4iVz52QE
 
 POST http://localhost:3000/user/tweets/
-Authentication: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkYW1fcmljaGFyZCIsImlhdCI6MTcyMzk2OTkwMX0.TmM4Bpspg9IrsusWQECX3HO6in1Kcvm9jDV5uvc6AmQ
+Authentication: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkYW1fcmljaGFyZCIsImlhdCI6MTcyNDE2MDA3OH0.Ew5AoUD3yXiw6SYPTW6qOAac_k0GOm79LxD4iVz52QE
+
 
 Content-Type : application/json
 {
@@ -61,6 +63,7 @@ Content-Type : application/json
     "dateTime": "2021-4-3 08:32:44"
 }
 
-DELETE http://localhost:3000/tweets/5/
-Authentication: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkYW1fcmljaGFyZCIsImlhdCI6MTcyMzk4MDE3N30.RO0kssiFxwhZPnfnWIiWQfwT1R3SkJYG9RsZrPZMvpc
+DELETE http://localhost:3000/tweets/21/
+Authentication: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkYW1fcmljaGFyZCIsImlhdCI6MTcyNDE2MDA3OH0.Ew5AoUD3yXiw6SYPTW6qOAac_k0GOm79LxD4iVz52QE
 
+*/
